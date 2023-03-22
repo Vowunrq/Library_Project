@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "BookInfo.h"
-
+//comment
 BookInfo::BookInfo()
 {
 	genre = "";
