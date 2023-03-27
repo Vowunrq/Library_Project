@@ -84,9 +84,9 @@ void studentMenu() {
             case '3':
                 //return a book
                 break;
-						case '4':
-								//view all books
-								break;
+			case '4':
+				//view all books
+				break;
             case '5':
                 programRunning = false;
                 break;
