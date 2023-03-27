@@ -18,13 +18,24 @@
     <ClCompile Include="OOPGroupProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookInfo.cpp">
+    <ClCompile Include="BookSignInOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BookInfo.h">
+    <ClInclude Include="BookSignInOut.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Downloads\BookList.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

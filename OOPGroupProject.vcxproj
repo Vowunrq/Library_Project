@@ -135,6 +135,9 @@
     <ClInclude Include="BookSignInOut.h" />
     <ClInclude Include="Library.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Downloads\BookList.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

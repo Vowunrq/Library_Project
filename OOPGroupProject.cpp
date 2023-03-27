@@ -6,7 +6,7 @@ ID: 400441896
 //some
 #include <iostream>
 #include <fstream>
-#include "BookInfo.h"
+#include "Library.h"
 
 using namespace std;
 
@@ -16,25 +16,25 @@ void librarianMenu();
 
 int main()
 {
-	BookInfo rec[16];
+	Library rec[16];
 
-	ifstream Library;
-	Library.open("Library.txt");
+	ifstream file;
+	file.open("BookList.txt");
 
-	while (!Library.eof())
+	while (!file.eof())
 	{
 		for (int i = 0; i < 4; i++)
 		{
 			string Genre, Author, Title;
 			int Year;
 
-			Library >> Title >> Author >> Genre >> Year;
+			file >> Title >> Author >> Genre >> Year;
 
-			BookInfo temp(Genre, Year, Author, Title);
-			rec[i] = temp;
+			//Library temp(Title, Author,  Genre, Year);
+			//rec[i] = temp;
 		}
 	}
-	Library.close();
+	file.close();
 
 
 
@@ -42,7 +42,7 @@ int main()
 	char userType;
 
 	cout << "Are you a student or a librarian? (S/L): ";
-	cin >> UserType;
+	cin >> userType;
 	cout << endl;
 
 	if (userType == 'S' || userType == 's') {
@@ -71,7 +71,7 @@ void studentMenu() {
         cout << "5. Exit" << endl << endl;
         cout << "Please enter your choice: ";
 
-        cin >> user_choice;
+        cin >> userChoice;
         cout << endl;
 
         switch (userChoice) {

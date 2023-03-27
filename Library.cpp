@@ -1,19 +1,44 @@
-#include <iostream>
+#include "Library.h"
 #include <fstream>
-#include "BookInfo.h"
-//comment
-BookInfo::BookInfo()
+
+Library::Library()
 {
-	genre = "";
-	year = 0;
-	author = "";
-	title = "";
+    title = "";
+    author = "";
+    genre = "";
+    year = 0;
+    availability = false;
 }
 
-BookInfo::BookInfo(string g, int y, string a, string t)
+Library::Library(string t, string auth, string g, int y, bool avail)
 {
-	genre = g;
-	year = y;
-	author = a;
-	title = t;
+    title = t;
+    author = auth;
+    genre = g;
+    year = y;
+    availability = avail;
 }
+
+Library::~Library()
+{
+}
+
+void Library::BookCatalogue()
+{
+}
+
+void Library::DisplayBooks(Library object) {
+    ifstream bookfile;
+    while (!bookfile.eof()) {
+        cout << object.getTitle() << "_\t" << object.getAuthor();
+        cout << object.getGenre() << "_\t" << object.getYear();
+        cout << "_\t" << object.getAvailability();
+    }
+}
+
+ostream& operator<<(ostream& stream, Library object) {
+    stream << object.getTitle() << "_\t" << object.getAuthor();
+    stream << object.getGenre() << "_\t" << object.getYear();
+    return stream;
+}
+
