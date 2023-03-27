@@ -1,42 +1,32 @@
-#include "Book.h"
-#include <fstream>
+#pragma once
+#include <iostream>
+using namespace std;
 
-Library::Library()
-{
-    title = "";
-    author = "";
-    genre = "";
-    year = 0;
-    availability = true;
-}
+class Library {
+protected:
+    string title;
+    string author;
+    string genre;
+    int year;
+    bool availability;
+public:
+    Library();
+    Library(string, string, string, int, bool);
+    ~Library();
 
-Library::Library(string t, string auth, string g, int y, bool avail)
-{
-    title = t;
-    author = auth;
-    genre = g;
-    year = y;
-    availability = avail;
-}
+    string getTitle() const { return title; };
+    string getAuthor() const { return author; };
+    string getGenre() const { return genre; };
+    int getYear() const { return year; };
+    bool getAvailability() const { return availability; };
 
-Library::~Library()
-{
-}
+    void setTitle(string t) { title = t; };
+    void setAuthor(string auth) { author = auth; };
+    void setGenre(string g) { genre = g; };
+    void setYear(int y) { year = y; };
+    void setAvailability(bool avail) { availability = avail; };
 
-void Library::BookCatalogue()
-{
-}
+    void BookCatalogue();
+    virtual void DisplayBooks(Library object);
 
-void Library::DisplayBooks(Library object) {
-    ifstream bookfile;
-    while (!bookfile.eof()) {
-        cout << object.getTitle() << "_\t" << object.getAuthor();
-        cout << object.getGenre() << "_\t" << object.getYear();
-        cout << "_\t" << object.getAvailability();
-    }
-}
-
-ostream& operator<<(ostream& stream, Library object) {
-    stream << object.getTitle() << "_\t" << object.getAuthor();
-    stream << object.getGenre() << "_\t" << object.getYear();
-}
+};
