@@ -53,12 +53,6 @@ int main()
 			cout << "Invalid option, please try again." << endl;
 	}
 
-
-
-
-
-
-
 	return 0;
 }
 
@@ -73,7 +67,8 @@ void studentMenu() {
         cout << "1. Search for a book" << endl;
         cout << "2. Borrow a book" << endl;
         cout << "3. Return a book" << endl;
-        cout << "4. Exit" << endl << endl;
+				cout << "4. View all books" << endl;
+        cout << "5. Exit" << endl << endl;
         cout << "Please enter your choice: ";
 
         cin >> user_choice;
@@ -89,7 +84,10 @@ void studentMenu() {
             case '3':
                 //return a book
                 break;
-            case '4':
+						case '4':
+								//view all books
+								break;
+            case '5':
                 programRunning = false;
                 break;
             default:
