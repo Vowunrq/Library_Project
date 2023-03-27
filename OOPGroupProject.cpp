@@ -32,5 +32,17 @@ int main()
 	}
 	Library.close();
 
+
+
+
 	return 0;
+}
+
+
+void Greetings(){
+	cout << "Hello, welcome JAKI Towns Public Library.\n";
+	cout << "Are you a Librarian(1) or Student(2)?";
+	int login;
+	cin >> login;
+
 }
