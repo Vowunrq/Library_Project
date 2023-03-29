@@ -18,9 +18,6 @@
     <ClCompile Include="OOPGroupProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BookSignInOut.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BookSignInOut.cpp" />
     <ClCompile Include="GuestAccount.cpp" />
     <ClCompile Include="LibrarianAccount.cpp" />
     <ClCompile Include="Library.cpp" />
