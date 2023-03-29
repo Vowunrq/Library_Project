@@ -24,12 +24,24 @@
     <ClCompile Include="Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GuestAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibrarianAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BookSignInOut.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuestAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarianAccount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
