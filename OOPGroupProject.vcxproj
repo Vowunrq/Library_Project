@@ -128,11 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BookSignInOut.cpp" />
+    <ClCompile Include="GuestAccount.cpp" />
+    <ClCompile Include="LibrarianAccount.cpp" />
     <ClCompile Include="Library.cpp" />
     <ClCompile Include="OOPGroupProject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BookSignInOut.h" />
+    <ClInclude Include="GuestAccount.h" />
+    <ClInclude Include="LibrarianAccount.h" />
     <ClInclude Include="Library.h" />
   </ItemGroup>
   <ItemGroup>
