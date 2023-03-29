@@ -1,5 +1,6 @@
 #include "GuestAccount.h"
-
+#include <fstream>
+#include <string>
 void GuestAccount::Search() {
 }
 
@@ -21,12 +22,22 @@ void GuestAccount::guestMenu() {
         cin >> userChoice;
         cout << endl;
 
+        //open the list file
+        string line;
+        ifstream list("Booklist.txt");
+
         switch (userChoice) {
         case '1':
             //search for a book
             break;
         case '2':
             //borrow book
+            cout << "HERE IS A LIST OF AVAILABLE BOOKS:" << endl;
+            
+            if (list.is_open()) {
+                while (getline(list, line)) {
+                    cout << line << endl;
+                }
             break;
         case '3':
             //return a book

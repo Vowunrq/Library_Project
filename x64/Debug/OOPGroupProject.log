@@ -1,4 +1,14 @@
-﻿  Library.cpp
+﻿  BookSignInOut.cpp
+c1xx : fatal  error C1083: Cannot open source file: 'BookSignInOut.cpp': No such file or directory
+  GuestAccount.cpp
+C:\Users\caii2\Desktop\Library_Project\GuestAccount.cpp(7): fatal  error C1075: '{': no matching token found
+  LibrarianAccount.cpp
+  Library.cpp
   OOPGroupProject.cpp
+C:\Users\caii2\Desktop\Library_Project\OOPGroupProject.cpp(19,17): error C2092: 'rec' array element type cannot be function or abstract class type
+C:\Users\caii2\Desktop\Library_Project\OOPGroupProject.cpp(19,10): error C2259: 'Library': cannot instantiate abstract class
+C:\Users\caii2\Desktop\Library_Project\Library.h(5,7): message : see declaration of 'Library'
+C:\Users\caii2\Desktop\Library_Project\OOPGroupProject.cpp(19,10): message : due to following members:
+C:\Users\caii2\Desktop\Library_Project\OOPGroupProject.cpp(19,10): message : 'void Library::Search(void)': is abstract
+C:\Users\caii2\Desktop\Library_Project\Library.h(28,15): message : see declaration of 'Library::Search'
   Generating Code...
-  OOPGroupProject.vcxproj -> C:\Users\caii2\Desktop\x64\Debug\OOPGroupProject.exe
