@@ -6,3 +6,9 @@
 *.vsidx
 .vs/OOPGroupProject/v17/ipch/AutoPCH/e5f1262123e67e31/LIBRARIAN.ipch
 *.ipch
+*.vsidx
+*.vsidx
+*.vsidx
+*.vsidx
+*.db
+*.db-shm
