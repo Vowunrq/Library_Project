@@ -13,3 +13,6 @@
 *.db
 *.db-shm
 *.vsidx
+.vs/OOPGroupProject/v17/Browse.VC.db-wal
+*.opendb
+*.db
