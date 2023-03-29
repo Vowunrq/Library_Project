@@ -1,6 +1,7 @@
 #include "GuestAccount.h"
 
 void GuestAccount::Search() {
+
 }
 
 void GuestAccount::guestMenu() {
