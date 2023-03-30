@@ -1,34 +1,37 @@
-Diary of a wimpy Kid					Jeff Kinney				Comedy			2007
+Diary of a wimpy Kid												Jeff Kinney				Comedy								2007
 
-Handmaids tale						Margaret Atwood			Speculative			1985
+Handmaids tale															Margaret Atwood				Speculative				1985
 
-Little Women 						Louisa May Alcott			Classic			1868
+Little Women 																Louisa May Alcott			Classic						1868
 
-A Court of Thorns and Roses 				Sarah J. Maas			Fantasy			2015
-Magic Tree House						Mary Pope Osborne			Fantasy			1992
+A Court of Thorns and Roses 								Sarah J. Maas					Fantasy						2015
 
-The Power of Habit 					Charles Duhlgg			Self-Help			2012
-The 48 Laws of Power					Robert Greene			Self-Help			1998
-Harry Potter and the Philosopher's Stone		J. K. Rowling			Fantasy			1997
+Magic Tree House														Mary Pope Osborne			Fantasy						1992
 
-Animal Farm 						George Orwell			Political Satire		1945
+The Power of Habit 													Charles Duhlgg				Self-Help					2012
 
-The Adventures of Sherlock Holmes			Arthur Conan Doyle		Mystery			1939
+The 48 Laws of Power												Robert Greene					Self-Help					1998
 
-It Ends with Us 						Colleen Hoover			Romance			2016
+Harry Potter and the Philosopher's Stone		J. K. Rowling					Fantasy						1997
 
-Psycho							Robert Bloch			Horror			1960	
+Animal Farm 																George Orwell					Political Satire	1945
 
-2001: A Space Odyssey					Arthur C. Clarke			Science Fiction		1968
-The Hunger Games						Suzanne Collins			Science Fiction		2008
-		
+The Adventures of Sherlock Holmes						Arthur Conan Doyle		Mystery						1939
 
-The Shining  	  					Stephen King   			Horror			1980
+It Ends with Us 														Colleen Hoover				Romance						2016
 
-Wonder 							R. J. Palecio			Children’s			2012
+Psycho																			Robert Bloch					Horror						1960
 
-The Alchemist						Paulo Coelho			Adventure			1985
+2001: A Space Odyssey												Arthur C. Clarke			Science Fiction		1968
 
-The Maze Runner 						James Dashner 			Science Fiction		2009
+The Hunger Games														Suzanne Collins				Science Fiction		2008
 
-The Giver 							Lois Lowry 				Science Fiction		1993
+The Shining  	  														Stephen King   				Horror						1980
+
+Wonder 																			R. J. Palecio					Children’s				2012
+
+The Alchemist																Paulo Coelho					Adventure					1985
+
+The Maze Runner 														James Dashner 				Science Fiction		2009
+
+The Giver 																	Lois Lowry 						Science Fiction		1993
